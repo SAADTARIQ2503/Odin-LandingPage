@@ -1,7 +1,14 @@
+body{
+    margin:0;
+    padding :0;
+    height:100vh;
+}
 .Hero{
     background-color: #1f2937;
     color:#F9FAF8;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     
 }
 .Hero nav{
@@ -15,11 +22,12 @@
 .Hero img{
     height:140px;
     width:300px;
+    margin: 0 10px;
 }
 .heroContent{
     display: flex;
     justify-content: center;
-    padding :20px 80px;
+    margin :20px 120px;
 
 }
 .Hero button{
@@ -34,7 +42,7 @@
     flex-direction: column;
 
 }
-.logo{
+.Logo{
     font-size:24px;
     color:#F9FAF8;
 
@@ -47,18 +55,104 @@ ul{
     margin: 0;
     padding: 0;
 }
-a{
+.link{
     font-size:18px;
+
+}
+a{
     color: #E5E7EB;
     text-decoration: none;
     
 }
 
+/* info section  */
+.content h2{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    text-align: center;
+}
+.CardRow{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+.Card{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CardImg{
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+.CardText{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    max-width: 120px;
+}
+
+
+
+
+
+
 
 /* Testimonial section */
 
 .Testimonial{
-    
     background-color: #E5E7EB;
-
+    padding: 42px;
 }
+
+.Testimonial .quote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    text-align: center;
+    
+ }
+ .Testimonial .author{
+    font-size: 16px;
+    font-style: bold;
+    color:#000000;
+    text-align: right;
+    
+ }
+
+ /* CTA section    */
+
+ .Cta{
+    max-width: 850px;
+    border-radius: 10px;
+    background-color: #3882F6 ;
+    color:#F9FAF8;
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+    margin:60px auto;
+    align-items: center;
+ }
+ .cta-btn{
+    background-color: #3882F6 ;
+    border: 2px solid white;
+    color:#F9FAF8;
+    border-radius: 5px;
+    flex:0 1 auto;
+    width:100px;
+    height:30px;
+
+ }
+ footer{
+    background-color: #1f2937;
+    color:#F9FAF8;
+    /* height:100px; */
+    text-align: center;
+    padding:36px;
+    margin: 0;
+
+ }
