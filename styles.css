@@ -1,0 +1,64 @@
+.Hero{
+    background-color: #1f2937;
+    color:#F9FAF8;
+    
+    
+}
+.Hero nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Hero h1{
+    margin: 0;
+}
+.Hero img{
+    height:140px;
+    width:300px;
+}
+.heroContent{
+    display: flex;
+    justify-content: center;
+    padding :20px 80px;
+
+}
+.Hero button{
+    width:100px;
+    height:30px;
+    background-color:#3882F6 ;
+    border:0;
+    border-radius: 5px;
+}
+.Herotext{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo{
+    font-size:24px;
+    color:#F9FAF8;
+
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    gap:16px;
+    align-items: right;
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-size:18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    
+}
+
+
+/* Testimonial section */
+
+.Testimonial{
+    
+    background-color: #E5E7EB;
+
+}
